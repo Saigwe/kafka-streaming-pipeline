@@ -58,6 +58,10 @@ python -m stream.producer      # in another
 
 The Kafka wrappers (`producer.py`, `consumer.py`) are thin and have only been run against the design, not a live broker. CI covers the processing core.
 
+## Walkthrough
+
+- [ ] 3-minute Loom walkthrough ([script ready](docs/walkthrough.md))
+
 ## Stack
 
 Kafka (Redpanda), confluent-kafka, Python, DuckDB, pytest.
